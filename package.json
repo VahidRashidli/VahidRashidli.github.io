@@ -1,0 +1,19 @@
+{
+    "name": "prosong",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sass:watch": "sass --watch sass/main.scss css/main.css",
+        "sass:prefix": "postcss css/main.css --use autoprefixer -o css/main.css"
+    },
+    "browserslist": "last 10 versions",
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.3.11",
+        "postcss-cli": "^9.0.2",
+        "sass": "^1.43.2"
+    },
+    "author": "Vahid",
+    "license": "ISC"
+}

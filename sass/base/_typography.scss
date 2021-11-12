@@ -1,0 +1,21 @@
+header {
+    .showcase {
+        h1 {
+            font-size: $font-size-veryBig;
+            font-weight: 900;
+        }
+    }
+}
+
+main {
+    .features {
+        h1 {
+            font-weight: $font-weight-normal;
+        }
+    }
+    .card-top {
+        h2 {
+            color: $primary-color;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.card-custom {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 2rem 0;
+    transition: $transition-normal;
+    border-radius: 10px;
+    i[class*="fa-check"] {
+        color: blueviolet;
+    }
+    i[class*="fa-times"] {
+        text-align: start !important;
+    }
+    &:hover {
+        transform: scale(1.02);
+    }
+    .btn {
+        font-size: 1.5rem;
+        background-color: $primary-color;
+        color: white;
+        width: 40%;
+        border-radius: 15px;
+        transition: $transition-normal;
+        border: 2px $primary-color solid;
+        &:hover {
+            background-color: white;
+            color: black;
+        }
+    }
+    .card-content {
+        padding: 0 2rem;
+        opacity: .8;
+    }
+    .card-custom__title {
+        color: $primary-color;
+        font-weight: $font-weight-normal;
+    }
+}

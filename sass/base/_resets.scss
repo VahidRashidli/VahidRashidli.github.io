@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    // This defines what 1rem is. Here 1rem is 10px. 62.5% of default root font-size (of 16px).
+    font-size: 62.5%;
+    @media only screen and (max-width: 69.75em) {
+        // Here root font-size is set to 9px.
+        font-size: 56.25%;
+    }
+    @media only screen and (max-width: 75em) {
+        // 1200px 
+    }
+    @media only screen and (max-width: 112.5em) {
+        // 1800 px 
+    }
+    @media only screen and (max-width: 56.25em) {
+        // 900 px 
+    }
+    @media only screen and (max-width: 48em) {
+        // 600 px for mobile
+        // Here root font-size is set to 8px.
+        font-size: 50%;
+    }
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+}

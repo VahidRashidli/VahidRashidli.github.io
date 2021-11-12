@@ -1,0 +1,32 @@
+footer {
+    .text-muted-custom {
+        opacity: 0.8;
+    }
+    .info {
+        height: 100%;
+        background-color: $blue;
+        a {
+            color: white;
+            text-decoration: underline;
+            &:hover {
+                opacity: 0.6;
+            }
+        }
+    }
+    .icons {
+        a {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            background-color: #30398f;
+            border-radius: 50%;
+            padding: 5px 0;
+            transition: $transition-normal;
+            margin-right: 5px;
+            &:hover {
+                background-color: white;
+                color: blue;
+            }
+        }
+    }
+}
